@@ -1,7 +1,7 @@
 # Creating my own library
 ## Description:
 
-A library is a collection of code, usually focused on enabling a specific component, peripheral or functionality. The main objective of this project is to provide the same flexibility as some of the basic functions of arrays c language such as sorting an array, rotating an array etc.
+A library is a collection of code, usually focused on enabling a specific component, peripheral or functionality. The main objective of this project is to provide the same flexibility as some of the basic functions of arrays in c language such as sorting an array, rotating an array etc.
 ### Functions in the library:
 #### Quick_Sort()
 This function sorts an array using quick sort algorithm by first dividing the array into two subarrays, so that all the numbers in one subarray are smaller than all the numbers in the second subarray. 
