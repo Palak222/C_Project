@@ -9,19 +9,6 @@ typedef struct{
 
 }fraction;
 
-int compareNum(void *p1, void *p2)
-{
-        int *a = (int*)p1;
-        int *b = (int*)p2;
-
-        if((a) > (b))
-                return 1;
-        else if((a) < (b))
-                return -1;
-        else
-                return 0;
-}
-
 int compareFrac(void *a ,void *b)
 {
 	
@@ -50,11 +37,9 @@ int main(void)
 	for(int i = 0; i < 5; i++)
 	{
 		array[i] = &p[i];
-		arr[i] = &a[i];
 	}
 	
 	QuickSort((void**)array, 0 , 4, compareFrac);
-	QuickSort((void**)arr, 0, 4, compareNum);
 
 	for (int i = 0; i < 5; i++)
 	{
